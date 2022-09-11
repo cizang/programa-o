@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<script src="funcoes.js"></script>
+<script>
+    var produto,precoCusto,precoVenda,qtd,lucro;
+
+    produto = prompt("Informe o nome do seu produto: ")
+    precoCusto = Number(prompt("Informe quanto custou o seu produto: "));
+    precoVenda = Number(prompt("Informe o preço de venda do produto: "));
+    qtd = Number(prompt("Informe a quantidade de produtos: "));
+
+    calculaLucro();
+
+    document.write("produto: " + produto + "<br>");
+    document.write("Preço de custo: " + precoCusto.toFixed(2) + "<br>");
+    document.write("Preço de venda: " + precoVenda.toFixed(2) + "<br>");
+    document.write("Quantidade: " + qtd + "<br>");
+    document.write("Lucro: " + lucro + "<br>");
+    
+
+
+</script>

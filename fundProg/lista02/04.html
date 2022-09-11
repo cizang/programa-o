@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<script>
+    var consumo,valorConsumo,taxaIluminacao, fatura, taxaManutencao = 1.70;
+
+    consumo = Number(prompt("Informe quanto consumiu: "));
+    valorConsumo = consumo * 0.41;
+    taxaIluminacao = valorConsumo * 0.03;
+    fatura = valorConsumo + taxaIluminacao + taxaManutencao;
+    document.write("Consumo em kwats: " + consumo + " <br> Valor do consumo em kwats: " + valorConsumo + "<br> taxa de iluminação pública: " + taxaIluminacao.toFixed(2 ) + " <br> taxa de manutenção: " + taxaManutencao + "<br> Valor da fatura: " + fatura);
+
+
+</script>

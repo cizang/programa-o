@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<script src="funcoes.js"></script>
+<script>
+    var kwatt, taxaIlum, taxaMan = 1.70, fatura;
+
+    kwatt = Number(prompt("Informe quanto consumiu: "));
+
+    calcularTaxaIlum();
+    calcularFaturaFinal();
+
+    document.write("<br> Relatório <hr> ");
+    document.write("Taxa de Iluminação: " + taxaIlum.toFixed(2)+ "<br>")
+    document.write("Taxa Manutenção " + taxaMan.toFixed(2) + "<br>");
+    document.write("Fatura final " + fatura.toFixed(2) + "<br>");
+    
+
+
+</script>
