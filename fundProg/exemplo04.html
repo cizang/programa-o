@@ -1,0 +1,46 @@
+<html>
+    <meta charset="utf-8">
+    <script src="funcoes.js"></script>
+    <script>
+        var i,n,soma,media,maior,menor,contaPares, contaImpares;
+
+        document.write("Relação dos números: " + "<br>");
+        alert("Informe 10 números inteiros ");
+        soma = 0;
+        maior = 0;
+        somaPares = 0;
+        contaImpares = 0;
+        contaPares = 0;
+        menor = 100;
+
+        for(i=1; i<=10; i++){
+            n = Number(prompt("Informe um número: " + i +"º número: "));
+            descobreMaior();
+            descobreMenor();
+            qtdPares();
+            qtdImpares();
+            document.write(n + "<br>");
+            somar();
+            
+         }
+
+         calcularMedia();
+
+         document.write("Soma: " + soma + "<br>");
+         document.write("media: " + media + "<br>");
+         document.write("Maior: " + maior + "<br>");
+         document.write("Menor: " + menor + "<br>");
+         document.write("Quantidade de pares: " + contaPares + "<br>");
+         document.write("Quantidade de impares: " + contaImpares + "<br>");
+
+
+
+      
+        
+        
+     
+        
+        
+    
+    </script>
+</html>
